@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.field svg {
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    align-self: center;
+}
+
+.btn:hover {
+    background-color: #c82333;
+}
